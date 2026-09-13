@@ -2,7 +2,7 @@
 
 English | [中文简体](README_CN.md)
 
-A high-performance cross-platform proxy client developed with Flutter and powered by the [sing-box](https://github.com/SagerNet/sing-box) kernel, featuring support for Clash configuration formats.
+A high-performance cross-platform proxy client developed with Flutter and powered by the [sing-box](https://github.com/SagerNet/sing-box) kernel, featuring support for sing-box, Clash, and V2Ray subscriptions.
 
 [![Release](https://img.shields.io/github/v/release/clash-sing/clash-sing)](https://github.com/clash-sing/clash-sing/releases)
 [![License](https://img.shields.io/github/license/clash-sing/clash-sing)](LICENSE)
@@ -11,7 +11,8 @@ A high-performance cross-platform proxy client developed with Flutter and powere
 
 - **High-Performance Kernel**: Powered by `sing-box` for extreme performance and stability.
 - **In-House Core Plugin**: Utilizes the self-developed [flutter_sing_box](https://github.com/clash-sing/flutter_sing_box) plugin for efficient communication between Flutter and the sing-box kernel.
-- **Configuration Compatibility**: Supports direct import and conversion of Clash configurations.
+- **Subscription Compatibility**: Supports direct import and conversion of sing-box, Clash, and V2Ray subscriptions.
+- **Desktop Experience**: Windows build featuring system tray, auto-start, and system proxy management.
 - **Modern UI**: Developed with Flutter, providing a fluid, beautiful, and responsive user interface.
 - **State Management**: Uses Riverpod 3.0 for reactive state management.
 - **Fast Persistence**: Based on MMKV for millisecond-level data access.
@@ -23,10 +24,12 @@ The project is currently under active development. Platform support progress is 
 | Platform | Status | Remarks |
 | :--- | :--- | :--- |
 | **Android** | ✅ Supported | Provides universal and per-architecture (arm64/v7a/x64) builds |
-| **Windows** | ☐️ In Development | Planned support |
+| **Windows** | ✅ Supported | Provides installer package (x64), with system tray and auto-start |
 | **macOS** | ☐️ In Development | Planned support |
 | **iOS** | ☐️ Planned | Pending adaptation |
 | **Linux** | ☐️ Planned | Pending adaptation |
+
+Both the Android and Windows builds support sing-box, Clash, and V2Ray subscriptions.
 
 ## 🚀 Download & Installation
 
@@ -37,6 +40,8 @@ You can visit the [Releases page](https://github.com/clash-sing/clash-sing/relea
     - `arm64-v8a`: Recommended version, suitable for most modern 64-bit Android phones.
     - `armeabi-v7a`: Suitable for older 32-bit Android devices.
     - `x86_64`: Suitable for Android emulators or certain tablets.
+- **Windows**:
+    - `x64`: Installer package for 64-bit Windows; install over an existing version to upgrade.
 
 ## 🛠️ Architecture Overview
 
