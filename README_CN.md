@@ -4,8 +4,8 @@
 
 一个基于 Flutter 开发、集成 [sing-box](https://github.com/SagerNet/sing-box) 内核的高性能跨平台代理客户端，支持 Clash 配置格式。
 
-[![Release](https://img.shields.io/github/v/release/clash-sing/clash_sing)](https://github.com/clash-sing/clash_sing/releases)
-[![License](https://img.shields.io/github/license/clash-sing/clash_sing)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/clash-sing/clash-sing)](https://github.com/clash-sing/clash-sing/releases)
+[![License](https://img.shields.io/github/license/clash-sing/clash-sing)](LICENSE)
 
 ## 🌟 特性
 
@@ -30,7 +30,7 @@
 
 ## 🚀 下载安装
 
-您可以前往 [Releases 页面](https://github.com/clash-sing/clash_sing/releases) 下载最新的安装包。
+您可以前往 [Releases 页面](https://github.com/clash-sing/clash-sing/releases) 下载最新的安装包。
 
 - **Android**:
     - `universal`: 包含所有架构，体积较大，适合所有手机。
