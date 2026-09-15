@@ -9,7 +9,7 @@
 
 ## 🌟 特性
 
-- **高性能内核**: 由 `sing-box` 强力驱动，提供极致的性能和稳定性。
+- **高性能内核**: 由 `sing-box`（1.14.1）强力驱动，提供极致的性能和稳定性。
 - **自研核心插件**: 采用自研的 [flutter_sing_box](https://github.com/clash-sing/flutter_sing_box) 插件，实现 Flutter 与 sing-box 内核的高效通信。
 - **订阅兼容**: 支持 sing-box、Clash、V2Ray 订阅的导入与转换。
 - **桌面体验**: Windows 端支持系统托盘常驻、开机自启与系统代理管理。

@@ -9,7 +9,7 @@ A high-performance cross-platform proxy client developed with Flutter and powere
 
 ## 🌟 Features
 
-- **High-Performance Kernel**: Powered by `sing-box` for extreme performance and stability.
+- **High-Performance Kernel**: Powered by `sing-box` 1.14.1 for extreme performance and stability.
 - **In-House Core Plugin**: Utilizes the self-developed [flutter_sing_box](https://github.com/clash-sing/flutter_sing_box) plugin for efficient communication between Flutter and the sing-box kernel.
 - **Subscription Compatibility**: Supports direct import and conversion of sing-box, Clash, and V2Ray subscriptions.
 - **Desktop Experience**: Windows build featuring system tray, auto-start, and system proxy management.
