@@ -9,7 +9,7 @@ A high-performance cross-platform proxy client developed with Flutter and powere
 
 ## 🌟 Features
 
-- **High-Performance Kernel**: Powered by `sing-box` 1.14.1 for extreme performance and stability.
+- **High-Performance Kernel**: Powered by `sing-box` 1.14.3 for extreme performance and stability.
 - **In-House Core Plugin**: Utilizes the self-developed [flutter_sing_box](https://github.com/clash-sing/flutter_sing_box) plugin for efficient communication between Flutter and the sing-box kernel.
 - **Subscription Compatibility**: Supports direct import and conversion of sing-box, Clash, and V2Ray subscriptions.
 - **Android TV Support (Beta)**: Phones and Android TVs share a single APK; the app detects the device form factor at launch and switches to a TV interface with remote-control (D-pad) navigation and LAN web import (QR code or URL push) for subscriptions. The TV interface is currently in preview and under active development.
