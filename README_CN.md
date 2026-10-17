@@ -9,7 +9,7 @@
 
 ## 🌟 特性
 
-- **高性能内核**: 由 `sing-box`（1.14.1）强力驱动，提供极致的性能和稳定性。
+- **高性能内核**: 由 `sing-box`（1.14.3）强力驱动，提供极致的性能和稳定性。
 - **自研核心插件**: 采用自研的 [flutter_sing_box](https://github.com/clash-sing/flutter_sing_box) 插件，实现 Flutter 与 sing-box 内核的高效通信。
 - **订阅兼容**: 支持 sing-box、Clash、V2Ray 订阅的导入与转换。
 - **Android TV 适配（Beta）**: 手机与 Android TV 共用同一 APK，运行时自动识别设备形态切换 TV 界面，支持遥控器 D-pad 操作与局域网 Web 导入订阅（扫码或链接推送）；TV 界面当前为预览版，持续完善中。
